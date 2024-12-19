@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Álbum de Fotos</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="album">
+    <div class="anniversary-text">¡Feliz 3 años como mejores amigos!</div>
+    <div class="carousel">
+      <img id="photo" src="fotos/1.png" alt="Foto 1">
+    </div>
+    <div class="carousel-controls">
+      <button id="prev">Anterior</button>
+      <button id="next">Siguiente</button>
+    </div>
+    <button id="collage-button">Crear Collage</button>
+    <button id="download-collage" style="display:none;">Descargar Collage</button>
+
+    <div id="collage-container" style="display:none;"></div>
+
+    <div id="fireworks-container"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
